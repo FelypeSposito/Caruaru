@@ -16,6 +16,34 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Mobile Menu Logic
+    const menuToggle = document.getElementById('menu-toggle');
+    const menuClose = document.getElementById('menu-close');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    if (menuToggle && mobileMenu) {
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+    }
+
+    if (menuClose && mobileMenu) {
+        menuClose.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+    }
+
+    // Close on link click
+    const mobileLinks = document.querySelectorAll('.mobile-menu-link');
+    mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+    });
+
     // Setup Intersection Observer for element reveal scroll animations
     const observerOptions = {
         root: null,
