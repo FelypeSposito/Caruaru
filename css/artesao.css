@@ -1,0 +1,56 @@
+/* Estilos específicos para a página Voz do Artesão */
+
+:root {
+    --gold-gradient: linear-gradient(135deg, #c29b6d 0%, #e9bf8e 100%);
+    --earth-dark: #1c1b1b;
+}
+
+.text-gold-gradient {
+    background: var(--gold-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+    background: var(--gold-gradient);
+}
+
+.artisan-card {
+    background: rgba(28, 27, 27, 0.4);
+    border: 1px solid rgba(194, 155, 109, 0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.artisan-card:hover {
+    border-color: rgba(194, 155, 109, 0.4);
+    background: rgba(28, 27, 27, 0.6);
+}
+
+.quote-ornament {
+    font-size: 8rem;
+    line-height: 0;
+    font-family: serif;
+    opacity: 0.1;
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    color: #c29b6d;
+}
+
+.process-step {
+    position: relative;
+    padding-left: 2rem;
+    border-left: 1px solid rgba(194, 155, 109, 0.2);
+}
+
+.process-step::before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: 0;
+    width: 9px;
+    height: 9px;
+    background: #c29b6d;
+    border-radius: 50%;
+}
