@@ -15,7 +15,7 @@
 <body class="bg-[#fdfdfd] dark:bg-[#0a0a0a] text-neutral-800 dark:text-[#e5e2e1] transition-colors duration-500 overflow-x-hidden font-body selection:bg-primary selection:text-on-primary">
 
     <!-- TopNavBar -->
-    <nav class="fixed top-0 w-full z-50 flex justify-between items-center px-6 md:px-12 py-6 bg-white/90 dark:bg-[#0a0a0a]/90 backdrop-blur-md border-b border-black/5 dark:border-white/5 transition-colors duration-500">
+    <nav class="fixed top-0 w-full z-50 flex justify-between items-center px-6 md:px-12 py-4 md:py-6 bg-white/90 dark:bg-[#0a0a0a]/90 backdrop-blur-md border-b border-black/5 dark:border-white/5 transition-colors duration-500">
         <div onclick="location.href='index.html'" class="text-xl font-bold tracking-tight text-primary hover:opacity-80 transition-opacity cursor-pointer">CARUARU</div>
         
         <div class="flex items-center gap-2 md:gap-6 lg:gap-8">
@@ -25,7 +25,7 @@
                 <a class="nav-link text-neutral-600 dark:text-white/60 hover:text-black dark:hover:text-white transition-colors" href="caso.html">O Caso Prada/McQueen</a>
                 <a class="nav-link text-neutral-600 dark:text-white/60 hover:text-black dark:hover:text-white transition-colors" href="artesao.html">Voz do Artesão</a>
                 <a class="nav-link text-neutral-600 dark:text-white/60 hover:text-black dark:hover:text-white transition-colors" href="dados.html">Dados da Desigualdade</a>
-                <a class="nav-link text-neutral-600 dark:text-white/60 hover:text-black dark:hover:text-white transition-colors" href="Revista - Caruaru.pdf" download="Revista - Caruaru.pdf">Revista PDF</a>
+                <a class="nav-link text-neutral-600 dark:text-white/60 hover:text-black dark:hover:text-white transition-colors" href="revista.pdf" download="revista.pdf">Revista PDF</a>
             </div>
 
             <!-- Mode Toggle (Always visible) -->
@@ -50,25 +50,25 @@
         <a class="mobile-menu-link" href="caso.html">O Caso Prada/McQueen</a>
         <a class="mobile-menu-link" href="artesao.html">Voz do Artesão</a>
         <a class="mobile-menu-link" href="dados.html">Dados da Desigualdade</a>
-        <a class="mobile-menu-link" href="Revista - Caruaru.pdf" download="Revista - Caruaru.pdf">Revista PDF</a>
+        <a class="mobile-menu-link" href="revista.pdf" download="revista.pdf">Revista PDF</a>
     </div>
 
     <main>
         <!-- Hero Section -->
-        <section class="relative min-h-screen pt-40 pb-24 px-12 flex items-center">
-            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                <div class="space-y-8 reveal-up">
+        <section class="relative min-h-screen pt-32 md:pt-40 pb-16 md:pb-24 px-6 md:px-12 flex items-center">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
+                <div class="space-y-6 md:space-y-8 reveal-up">
                     <span class="inline-block px-4 py-1.5 rounded-full bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10 text-primary text-[10px] font-bold uppercase tracking-widest hover:border-primary/50 transition-colors duration-300">
                         Denúncia & Resistência
                     </span>
-                    <h1 class="text-6xl md:text-8xl font-bold tracking-tight leading-[1.05] text-neutral-900 dark:text-white">
+                    <h1 class="text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight leading-[1.05] text-neutral-900 dark:text-white">
                         Moda Brasileira: <br/>
                         <span class="text-primary">Apropriação Cultural em Caruaru</span>
                     </h1>
-                    <p class="text-lg md:text-xl font-light text-neutral-600 dark:text-white/60 max-w-lg leading-relaxed duration-300">
+                    <p class="text-base md:text-lg lg:text-xl font-light text-neutral-600 dark:text-white/60 max-w-lg leading-relaxed duration-300">
                         Uma investigação sobre como a indústria do luxo lucra com a invisibilidade dos artesãos nordestinos, os verdadeiros detentores da técnica e originalidade.
                     </p>
-                    <button class="animated-btn flex items-center gap-3 bg-primary text-on-primary px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-wider group">
+                    <button onclick="location.href='caso.html'" class="animated-btn flex items-center gap-3 bg-primary text-on-primary px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-wider group">
                         Ver a Realidade
                         <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform duration-300">arrow_forward</span>
                     </button>
@@ -76,31 +76,31 @@
                 
                 <div class="relative aspect-[4/5] rounded-xl shadow-2xl reveal-up reveal-delay-1 image-container">
                     <img class="w-full h-full object-cover image-zoom" alt="Traditional Brazilian basket weaving patterns" 
-                         src="./MODA, BARRO E RESISTENCIA.jpg"/>
+                         src="./capa_revista.jpg"/>
                 </div>
             </div>
         </section>
 
         <!-- Data Section -->
-        <section class="py-32 px-12 bg-neutral-100 dark:bg-surface-variant/30 transition-colors duration-500">
+        <section class="py-16 md:py-32 px-6 md:px-12 bg-neutral-100 dark:bg-surface-variant/30 transition-colors duration-500">
             <div class="max-w-7xl mx-auto">
-                <div class="mb-16 reveal-up">
-                    <h2 class="text-3xl font-bold mb-4 text-neutral-900 dark:text-white">A Economia da Invisibilidade</h2>
-                    <p class="text-neutral-500 dark:text-white/50 max-w-xl">A disparidade brutal entre a valorização da estética e a realidade financeira.</p>
+                <div class="mb-12 md:mb-16 reveal-up">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-neutral-900 dark:text-white">A Economia da Invisibilidade</h2>
+                    <p class="text-base md:text-lg text-neutral-500 dark:text-white/50 max-w-xl">A disparidade brutal entre a valorização da estética e a realidade financeira.</p>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <!-- Stat Card 1 -->
-                    <div class="p-10 bg-white dark:bg-surface border border-neutral-200 dark:border-white/5 rounded-xl hover-card reveal-up reveal-delay-1 transition-colors duration-500">
+                    <div class="p-6 md:p-10 bg-white dark:bg-surface border border-neutral-200 dark:border-white/5 rounded-xl hover-card reveal-up reveal-delay-1">
                         <p class="text-[10px] font-bold uppercase tracking-widest text-primary mb-4">Renda Média</p>
-                        <p class="text-4xl font-bold text-neutral-900 dark:text-white">R$ 1.650</p>
+                        <p class="text-4xl md:text-5xl font-bold text-neutral-900 dark:text-white">R$ 1.650</p>
                         <p class="text-xs text-neutral-500 dark:text-white/40 mt-2">Mensal por família artesã</p>
                     </div>
                     
                     <!-- Stat Card 2 -->
-                    <div class="p-10 bg-white dark:bg-surface border border-neutral-200 dark:border-white/5 rounded-xl flex flex-col justify-center items-center text-center hover-card reveal-up reveal-delay-2 transition-colors duration-500">
-                        <div class="relative w-24 h-24 mb-6 flex items-center justify-center">
-                            <svg class="w-full h-full -rotate-90">
+                    <div class="p-6 md:p-10 bg-white dark:bg-surface border border-neutral-200 dark:border-white/5 rounded-xl flex flex-col justify-center items-center text-center hover-card reveal-up reveal-delay-2">
+                        <div class="relative w-20 h-20 md:w-24 md:h-24 mb-6 flex items-center justify-center">
+                            <svg class="w-full h-full -rotate-90" viewBox="0 0 96 96">
                                 <circle class="text-neutral-200 dark:text-white/10" cx="48" cy="48" fill="transparent" r="44" stroke="currentColor" stroke-width="8"></circle>
                                 <circle class="text-primary transition-all duration-1000 ease-in-out" id="circle-anim" cx="48" cy="48" fill="transparent" r="44" stroke="currentColor" stroke-dasharray="276" stroke-dashoffset="276" stroke-width="8"></circle>
                             </svg>
@@ -110,18 +110,18 @@
                     </div>
                     
                     <!-- Stat Card 3 -->
-                    <div class="p-10 bg-primary text-on-primary rounded-xl flex flex-col justify-center text-center hover-card reveal-up reveal-delay-3" style="border: 1px solid transparent;">
-                        <p class="text-6xl font-bold mb-4">&lt;1%</p>
-                        <p class="text-xs font-bold uppercase tracking-widest opacity-80">A Partilha Injusta</p>
+                    <div class="p-6 md:p-10 bg-primary text-on-primary rounded-xl flex flex-col justify-center text-center hover-card reveal-up reveal-delay-3" style="border: 1px solid transparent;">
+                        <p class="text-5xl md:text-6xl font-bold mb-4">&lt;1%</p>
+                        <p class="text-[10px] md:text-xs font-bold uppercase tracking-widest opacity-80">A Partilha Injusta</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Quote Section -->
-        <section class="py-32 px-12">
-            <div class="max-w-6xl mx-auto p-20 border border-primary/20 dark:border-primary/40 rounded-xl bg-primary/5 dark:bg-primary/5 flex flex-col items-center text-center hover-card transition-shadow reveal-up duration-500">
-                <blockquote class="text-3xl md:text-5xl font-medium text-neutral-900 dark:text-white mb-10 leading-tight transition-colors duration-500">
+        <section class="py-16 md:py-32 px-6 md:px-12">
+            <div class="max-w-6xl mx-auto p-8 md:p-12 lg:p-20 border border-primary/20 dark:border-primary/40 rounded-xl bg-primary/5 dark:bg-primary/5 flex flex-col items-center text-center hover-card reveal-up">
+                <blockquote class="text-2xl md:text-3xl lg:text-5xl font-medium text-neutral-900 dark:text-white mb-8 md:mb-10 leading-tight transition-colors duration-500">
                     "A cultura não é um ornamento. É a raiz da identidade de um povo."
                 </blockquote>
                 <cite class="text-primary font-bold uppercase tracking-widest text-xs not-italic">— Artesãos de Caruaru</cite>
@@ -129,12 +129,12 @@
         </section>
 
         <!-- Download CTA Section -->
-        <section class="py-24 px-12">
-            <div class="max-w-7xl mx-auto bg-primary rounded-xl py-20 px-12 flex flex-col items-center text-center reveal-up">
-                <h2 class="text-4xl md:text-5xl font-bold text-on-primary mb-6">Acesse a Revista Completa</h2>
-                <p class="text-on-primary/70 max-w-2xl mb-12 text-lg">Um mergulho profundo no artesanato de barro, xilogravura e a história de Mestre Vitalino.</p>
+        <section class="py-16 md:py-24 px-6 md:px-12">
+            <div class="max-w-7xl mx-auto bg-primary rounded-xl py-12 px-6 md:py-20 md:px-12 flex flex-col items-center text-center reveal-up">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-on-primary mb-4 md:mb-6">Acesse a Revista Completa</h2>
+                <p class="text-on-primary/70 max-w-2xl mb-8 md:mb-12 text-base md:text-lg">Um mergulho profundo no artesanato de barro, xilogravura e a história de Mestre Vitalino.</p>
                 
-                <a href="Revista - Caruaru.pdf" download="Revista - Caruaru.pdf" class="animated-btn bg-[#0e0e0e] text-primary px-10 py-5 rounded-xl font-bold flex items-center gap-4 hover:bg-black transition-all">
+                <a href="revista.pdf" download="revista.pdf" class="animated-btn bg-[#0e0e0e] text-primary px-6 md:px-10 py-4 md:py-5 rounded-xl font-bold flex items-center gap-4 hover:bg-black transition-all">
                     <span class="material-symbols-outlined">download</span>
                     Download PDF Revista
                 </a>
@@ -143,14 +143,10 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-neutral-100 dark:bg-[#0a0a0a] border-t border-black/5 dark:border-white/5 py-16 px-12 reveal-up transition-colors duration-500">
-        <div class="max-w-7xl mx-auto flex flex-col items-center gap-10">
+    <footer class="bg-neutral-100 dark:bg-[#0a0a0a] border-t border-black/5 dark:border-white/5 py-12 px-6 md:py-16 md:px-12 reveal-up transition-colors duration-500">
+        <div class="max-w-7xl mx-auto flex flex-col items-center gap-8 md:gap-10">
             <div class="flex flex-wrap justify-center gap-x-12 gap-y-4 text-[11px] font-bold uppercase tracking-widest">
-                <a class="nav-link text-neutral-500 dark:text-white/60 hover:text-neutral-900 dark:hover:text-white transition-colors" href="#">LinkedIn - Felype</a>
-                <a class="nav-link text-neutral-500 dark:text-white/60 hover:text-neutral-900 dark:hover:text-white transition-colors" href="#">LinkedIn - Laura</a>
-                <a class="nav-link text-neutral-500 dark:text-white/60 hover:text-neutral-900 dark:hover:text-white transition-colors" href="#">LinkedIn - Nathan</a>
-                <a class="nav-link text-neutral-500 dark:text-white/60 hover:text-neutral-900 dark:hover:text-white transition-colors" href="#">LinkedIn - Sophia</a>
-                <a class="nav-link text-neutral-500 dark:text-white/60 hover:text-neutral-900 dark:hover:text-white transition-colors" href="#">LinkedIn - Suellen</a>
+                <a class="nav-link text-neutral-500 dark:text-white/60 hover:text-neutral-900 dark:hover:text-white transition-colors" href="https://linktr.ee/ApropriacaoCaruaru" target="_blank">Linktree da Equipe</a>
             </div>
             <p class="text-[10px] text-neutral-400 dark:text-white/20 uppercase tracking-[0.2em] transition-colors duration-500">© 2026 - CASO APROPRIAÇÃO DE CARUARU</p>
         </div>
